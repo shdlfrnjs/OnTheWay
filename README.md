@@ -61,7 +61,7 @@
 
 ### Database
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)  
 
 ### API / 기타
 ![PortOne](https://img.shields.io/badge/PortOne-00B2FF?style=for-the-badge&logo=paypal&logoColor=white)  
