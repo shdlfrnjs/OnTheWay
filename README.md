@@ -1,52 +1,108 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=fac1c1&height=300&section=header&text=OnTheWay%20Project!&fontColor=ffffff&fontSize=90">
-</div><br><br>
-
-
-## 📝 프로젝트 소개 (Project Introduction)
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e8ea8ea9-4bf1-4cfc-9c50-223b44ac5b21" alt="mainpage" width="800" height="350">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=87ceeb&height=300&section=header&text=On%20The%20Way&fontColor=ffffff&fontSize=80" />
 </div>
-OnTheWay는 운전자와 여행객의 편리한 이동을 돕기 위해 개발된 웹 애플리케이션입니다. 이동 경로상의 휴게소, 편의시설, 입점 매장, 이벤트 정보 등을 통합적으로 제공하여 사용자들에게 최적화된 경로 계획 및 정보 탐색 경험을 선사합니다. 특히, 고속도로 휴게소 내의 브랜드 매장, 편의점, 푸드코트 등 상세 정보를 제공함으로써 사용자가 필요한 정보를 쉽고 빠르게 얻을 수 있도록 지원합니다.<br><br><br><br>
 
+<br>
 
-## 🛠️ 사용된 기술 (Tech Stack)<br>
-### Frontend<br>
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![css](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)<br>
-### Backend<br>
-![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)<br>
-### Database<br>
-![SQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)<br><br>
+## 🛣️ 프로젝트 개요 (Project Overview)
 
+**On The Way**는 전국 고속도로 휴게소 정보를 통합하여 제공하는 웹 애플리케이션입니다.  
+한국도로공사 및 공공데이터 포털 API를 기반으로 휴게소의 위치, 편의시설, 푸드코트, 이벤트, 리뷰 등 다양한 정보를 시각적이고 직관적으로 제공하며, 사용자 편의를 최우선으로 설계되었습니다.
 
-## 👤 사용자 관리 (User Management)
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/eb27b984-2a43-4ac1-adb8-ca7bfd1a4143" alt="user" width="800" height="350">
-</div>
-로그인/회원가입 UI 및 기능 구현: 사용자가 손쉽게 계정을 생성하고 로그인할 수 있도록 직관적인 인터페이스를 설계하고 관련 기능을 개발했습니다.
-사용자 정보 조회 및 수정: 마이페이지에서 사용자가 자신의 정보를 확인하고 수정할 수 있는 기능을 구현하여 사용자 편의성을 높였습니다.<br><br><br><br>
+> 🚀 **주요 기능**: 휴게소 검색 · 상세정보 · 음식 주문 · 사용자 후기 및 평점 시스템  
+> 🛠️ **개발 환경**: Java, JSP, JSTL, MySQL, jQuery, HTML/CSS, PortOne API  
+> 👥 **팀 구성**: 김민규, 노일권, 박현규, 박호준, 조태민  
+> 📅 **진행 기간**: 2025년 대학교 세미 프로젝트
 
+---
 
-## ⛽ 휴게소 정보 (Rest Area Information)
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/abba8619-7479-4d34-bb39-2bce4d70be1c" alt="hupage" width="800" height="350">
-</div>
-휴게소 위치 및 기본 정보 UI 구현: 전국 휴게소의 위치와 기본 정보를 시각적으로 명확하게 표시하는 UI를 구현했습니다.
-편의시설 정보 조회: 휴게소 내 음식점, 편의점 등 편의시설 정보를 사용자가 쉽게 찾아볼 수 있도록 인터랙티브한 조회 기능을 개발했습니다.<br>
-🏪 입점 매장 정보 (Store Information)<br>
-브랜드 매장 검색 및 정보 표시: 특정 브랜드가 입점한 휴게소를 검색하고 해당 매장 정보를 효과적으로 보여주는 기능을 개발했습니다.
-편의점 및 푸드코트 정보: 휴게소별 편의점 정보와 푸드코트 메뉴를 상세하게 확인할 수 있는 UI를 구현했습니다.<br><br><br><br>
+## 🧩 주요 기능 (Main Features)
 
+### 🔐 회원 관리
+- 회원가입 / 로그인 / 로그아웃
+- 회원 정보 수정 / 탈퇴
+- 관리자 기능 분리 (공지사항/이벤트 관리 등)
 
-## 🎉 이벤트 정보 (Event Information)
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/432cb15e-0273-47dc-b7ee-8962c550985f" alt="eventpage" width="800" height="350">
-</div>
-이벤트 목록 및 상세 페이지 구현: 휴게소 및 관련 브랜드의 다양한 이벤트를 모아서 보여주고, 각 이벤트의 상세 정보를 확인할 수 있는 페이지를 개발했습니다.<br><br><br><br>
+### 🧭 휴게소 검색 & 필터
+- 휴게소 이름 검색
+- LPG 충전소 / 전기차 충전소 / 약국 필터 기능
+- 검색 결과를 리스트 및 링크로 제공
 
+### 🏪 휴게소 상세 정보
+- 공공 API를 기반으로 한 휴게소 상세 페이지
+- 위치, 주소, 노선, 편의시설, 브랜드 매장 정보 표시
+- 공지사항 및 이벤트 정보 포함
 
-## 🚗 실시간 교통 정보 (Real-time Traffic)
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/41ded08d-8021-404e-8679-e4db2574f1ce" alt="tra" width="800" height="350">
-</div>
-교통 상황 정보 표시 UI: 주요 도로의 실시간 교통 상황을 한눈에 파악할 수 있도록 시각적으로 구현했습니다. (API 연동)<br><br><br><br>
+### 🍜 푸드코트 메뉴 조회 & 주문
+- 각 휴게소별 푸드코트 메뉴 조회
+- 장바구니 기능 및 온라인 주문 기능 구현
+- PortOne API를 통한 결제 처리
+
+### 🌟 리뷰 및 평점 시스템
+- 휴게소별 별점 등록 및 후기 작성
+- 별점 평균 자동 계산, 정렬 기능 (추천순/최신순 등)
+- 후기 추천/비추천 기능 (1회 제한)
+- 후기 중복 등록 방지, 삭제 기능 (본인/관리자 권한)
+
+---
+
+## 🛠️ 사용 기술 (Tech Stack)
+
+### Frontend
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS](https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
+### Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)  
+![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=apachetomcat&logoColor=white)  
+![JSTL](https://img.shields.io/badge/JSTL-cc0033?style=for-the-badge&logo=apache&logoColor=white)
+
+### Database
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
+### API / 기타
+![PortOne](https://img.shields.io/badge/PortOne-00B2FF?style=for-the-badge&logo=paypal&logoColor=white)  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
+![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
+
+---
+
+## 📸 프로젝트 시연 (Demo)
+
+> 시연 영상은 추후 업로드 예정입니다.
+
+<!-- 예시 이미지 자리 -->
+<!-- <img src="./images/demo.gif" width="700" /> -->
+
+---
+
+## 👥 팀원 역할 분담
+
+| 이름 | 담당 |
+|------|------|
+| 김민규 | 회원가입 / 로그인 / 탈퇴 기능 |
+| 박호준 | 공지사항 및 휴게소 검색 기능 |
+| 박현규 | 휴게소 상세 페이지 구현 |
+| 노일권 | 푸드코트 메뉴 조회, 결제 연동 |
+| 조태민 | 리뷰 / 평점 / 추천 시스템 |
+
+---
+
+## 🧱 DB 설계 핵심 요약
+
+- 리뷰(REVIEW) 테이블은 사용자 ID와 휴게소명 외래키 기반
+- 평점 평균을 위한 `avg_star` 컬럼 추가
+- GOOD 테이블로 추천/비추천 중복 방지
+- 주문 내역과 후기 등록 시 각각 고유 식별자 및 연동 로직 구성
+
+---
+
+## 📚 참고 자료
+
+- [한국도로공사 고속도로 휴게소 API](https://data.ex.co.kr/)
+- [공공데이터포털](https://www.data.go.kr/)
+- [PortOne 결제 API](https://portone.io/)
+- [JSP 공식 문서](https://jsp.javaee.org/)
+
