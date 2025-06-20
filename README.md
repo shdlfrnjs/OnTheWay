@@ -75,7 +75,9 @@
 
 <!-- 예시 이미지 자리 -->
 <!-- <img src="./images/demo.gif" width="700" /> -->
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eb27b984-2a43-4ac1-adb8-ca7bfd1a4143" alt="user" width="800" height="350">
+</div>
 ---
 
 ## 👥 팀원 역할 분담
