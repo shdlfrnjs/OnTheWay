@@ -104,5 +104,4 @@
 - [한국도로공사 고속도로 휴게소 API](https://data.ex.co.kr/)
 - [공공데이터포털](https://www.data.go.kr/)
 - [PortOne 결제 API](https://portone.io/)
-- [JSP 공식 문서](https://jsp.javaee.org/)
 
