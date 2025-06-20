@@ -71,15 +71,18 @@
 
 ## 📸 프로젝트 시연 (Demo)
 
-<div align="center">
+
 🔐 로그인 / 회원가입
-<img src="https://github.com/user-attachments/assets/eb27b984-2a43-4ac1-adb8-ca7bfd1a4143" width="800" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eb27b984-2a43-4ac1-adb8-ca7bfd1a4143" width="800" height="350" />
+</div>
+
 ⛽ 휴게소 정보
-<img src="https://github.com/user-attachments/assets/abba8619-7479-4d34-bb39-2bce4d70be1c" width="800" />
+<img src="https://github.com/user-attachments/assets/abba8619-7479-4d34-bb39-2bce4d70be1c" width="800" height="350" />
 🎉 이벤트 정보
-<img src="https://github.com/user-attachments/assets/432cb15e-0273-47dc-b7ee-8962c550985f" width="800" />
+<img src="https://github.com/user-attachments/assets/432cb15e-0273-47dc-b7ee-8962c550985f" width="800" height="350" />
 🚗 실시간 교통 정보
-<img src="https://github.com/user-attachments/assets/41ded08d-8021-404e-8679-e4db2574f1ce" width="1000" />
+<img src="https://github.com/user-attachments/assets/41ded08d-8021-404e-8679-e4db2574f1ce" width="800" height="350" />
 🍱 휴게소별 푸드코트
 <img src="./images/결제시연.gif" width="700" /> </div>
 
