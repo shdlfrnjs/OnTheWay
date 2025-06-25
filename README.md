@@ -10,7 +10,7 @@
 한국도로공사 및 공공데이터 포털 API를 기반으로 휴게소의 위치, 편의시설, 푸드코트, 이벤트, 리뷰 등 다양한 정보를 시각적이고 직관적으로 제공하며, 사용자 편의를 최우선으로 설계되었습니다.
 
 > 🚀 **주요 기능**: 휴게소 검색 · 상세정보 · 푸드코트 · 이벤트 · 공지사항 · 사용자 후기 및 평점 시스템  
-> 🛠️ **개발 환경**: Java, JSP, JSTL, MySQL, jQuery, HTML/CSS, PortOne API  
+> 🛠️ **개발 환경**: Java, JSP, HTML/CSS, JavaScript, jQuery, MySQL
 > 👥 **팀 구성**: 김민규, 노일권, 박현규, 박호준, 조태민  
 > 📅 **진행 기간**: 2025년 쌍용교육센터 세미 프로젝트
 
@@ -57,7 +57,6 @@
 ### Backend
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)  
 ![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=apachetomcat&logoColor=white)  
-![JSTL](https://img.shields.io/badge/JSTL-cc0033?style=for-the-badge&logo=apache&logoColor=white)
 
 ### Database
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)  
